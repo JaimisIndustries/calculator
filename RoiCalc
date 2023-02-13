@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .calculator {
+        border: 1px solid black;
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+      }
+
+      .input-field {
+        margin: 10px 0;
+      }
+
+      label {
+        display: inline-block;
+        width: 120px;
+        text-align: right;
+        margin-right: 10px;
+      }
+
+      input[type="text"] {
+        width: 150px;
+        padding: 5px;
+        border: 1px solid gray;
+      }
+
+      #output {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>ROI Calculator</h2>
+      <form>
+        <div class="input-field">
+          <label for="investment">Investment:</label>
+          <input type="text" id="investment" name="investment">
+        </div>
+        <div class="input-field">
+          <label for="revenue">Revenue:</label>
+          <input type="text" id="revenue" name="revenue">
+        </div>
